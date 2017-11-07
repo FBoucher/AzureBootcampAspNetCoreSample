@@ -17,7 +17,7 @@ namespace AzureBootcampAspNetCoreSample.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This Web Application was made in Montreal";
 
             return View();
         }
